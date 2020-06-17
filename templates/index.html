@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <title>COVID-19 SYMPTOMS PREDICTION</title>
+  </head>
+  <body>
+    
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <h1 class="navbar-brand">COVID-19 SYMPTOMS PREDICTION</h1>
+        
+      </nav>
+
+
+      <div class="container">
+          <h2 class="text-center mt-5" >COVID-19 SYMPTOMS PREDICTOR</h2>
+          <form method="POST" action="/">
+
+            <div class="form-group">
+              <label for="Age">Age</label>
+              <input type="text" class="form-control" id="Age" name= "Age" placeholder="Enter your Age">
+            </div>
+
+            <div class="form-group">
+              <label for="Gender">Select Gender</label>
+              <select class="form-control custom-select" name = "Gender" id="Gender">
+                <option value=1>MALE</option>
+                <option value=0>FEMALE</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+                <label for="body temperature">body temperature</label>
+                <input type="text" class="form-control" id="body temperature" name= "body temperature" placeholder="Enter your body temperature in Farenheit">
+              </div>
+
+            <div class="form-group">
+                <label for="Dry Cough">Dry Cough</label>
+                <select class="form-control custom-select" name = "Dry Cough" id="Dry Cough">
+                  <option value=1>Yes</option>
+                  <option value=0>No</option>
+                </select>
+            </div>
+            
+            <div class="form-group">
+                <label for="sour throat">sour throat</label>
+                <select class="form-control custom-select" name = "sour throat" id="sour throat">
+                  <option value=1>Yes</option>
+                  <option value=0>No</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="weakness">weakness</label>
+                <select class="form-control custom-select" name = "weakness" id="weakness">
+                  <option value=1>Yes</option>
+                  <option value=0>No</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="breathing problem">breathing problem</label>
+                <select class="form-control custom-select" name = "breathing problem" id="breathing problem">
+                  <option value=1>Yes</option>
+                  <option value=0>No</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="drowsiness">drowsiness</label>
+                <select class="form-control custom-select" name = "drowsiness" id="drowsiness">
+                  <option value=1>Yes</option>
+                  <option value=0>No</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="pain in chest">pain in chest</label>
+                <select class="form-control custom-select" name = "pain in chest" id="pain in chest">
+                  <option value=1>Yes</option>
+                  <option value=0>No</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="travelTOinfectedCOUNTRY">travel history to infected countries</label>
+                <select class="form-control custom-select" name = "travelTOinfectedCOUNTRY" id="travelTOinfectedCOUNTRY">
+                  <option value=1>Yes</option>
+                  <option value=0>No</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="diabetes">diabetes</label>
+                <select class="form-control custom-select" name = "diabetes" id="diabetes">
+                  <option value=1>Yes</option>
+                  <option value=0>No</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="heart disease">heart disease</label>
+                <select class="form-control custom-select" name = "heart disease" id="heart disease">
+                  <option value=1>Yes</option>
+                  <option value=0>No</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="lung disease">lung disease</label>
+                <select class="form-control custom-select" name = "lung disease" id="lung disease">
+                  <option value=1>Yes</option>
+                  <option value=0>No</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="stroke or reduced immunity">stroke or reduced immunity</label>
+                <select class="form-control custom-select" name = "stroke or reduced immunity" id="stroke or reduced immunity">
+                  <option value=1>Yes</option>
+                  <option value=0>No</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="symptoms progressed">symptoms progressed</label>
+                <select class="form-control custom-select" name = "symptoms progressed" id="symptoms progressed">
+                  <option value=1>Yes</option>
+                  <option value=0>No</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="high blood pressue">high blood pressue</label>
+                <select class="form-control custom-select" name = "high blood pressue" id="high blood pressue">
+                  <option value=1>Yes</option>
+                  <option value=0>No</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="kidney disease">kidney disease</label>
+                <select class="form-control custom-select" name = "kidney disease" id="kidney disease">
+                  <option value=1>Yes</option>
+                  <option value=0>No</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="change in appetide">change in appetide</label>
+                <select class="form-control custom-select" name = "change in appetide" id="change in appetide">
+                  <option value=1>Yes</option>
+                  <option value=0>No</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="Loss of sense of smell">Loss of sense of smell</label>
+                <select class="form-control custom-select" name = "Loss of sense of smell" id="Loss of sense of smell">
+                  <option value=1>Yes</option>
+                  <option value=0>No</option>
+                </select>
+            </div>
+            <button class="btn btn-success">SUBMIT</button>
+          </form>
+      </div>
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
+</html>
